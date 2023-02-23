@@ -1,0 +1,28 @@
+.radio {
+    display: flex;
+    margin: 10px;
+}
+
+.radio::before {
+
+}
+
+
+.radio:checked::before {
+}
+
+.label {
+    display: flex;
+}
+
+.option{
+    outline: none;
+    border: 1px solid grey;
+
+}
+.option:hover{
+    background: white;
+}
+.option:checked{
+    background: white;
+}
